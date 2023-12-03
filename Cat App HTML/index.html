@@ -73,15 +73,29 @@
             <!-- action es el url destino-->
             <form required action="https://freecatphotoapp.com/submit-cat-photo">
 
-            <!-- input se utiliza para crear campos de texto-->
-            <!-- name es el nombre del formulario-->
-            <!-- placeholder es el texto que aparece en el campo de texto-->
-            <!-- required es para que el campo de texto sea obligatorio-->
-            <input required type="text" name="catphotourl" placeholder="cat photo URL">
 
-            <!-- button se utiliza para crear botones-->
-            <!-- submit es para enviar el formulario-->
-            <button type="submit">Submit</button>
+                <!-- fieldset se utiliza para agrupar elementos relacionados en un formulario-->
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <!-- radio se utiliza para crear botones de selección-->
+                    <!-- label representa una etiqueta para un elemento en una interfaz de usuario-->
+                    <!-- id es el identificador del elemento-->
+                    <!-- name es el nombre del formulario-->
+                    <!-- value es el valor del formulario-->
+                    <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor </label>
+                    <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Personality check</legend>
+                <!-- input se utiliza para crear campos de texto-->
+                <!-- name es el nombre del formulario-->
+                <!-- placeholder es el texto que aparece en el campo de texto-->
+                <!-- required es para que el campo de texto sea obligatorio-->
+                <input required type="text" name="catphotourl" placeholder="cat photo URL">
+
+                <!-- button se utiliza para crear botones-->
+                <!-- submit es para enviar el formulario-->
+                <button type="submit">Submit</button>
             </form>
         </section>
 
