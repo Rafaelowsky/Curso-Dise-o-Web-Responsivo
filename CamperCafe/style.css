@@ -3,10 +3,10 @@ h1, h2, p {
 }
 
 body {
-    background-color: burlywood; /* background-color: #f1f1f1; */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
 
-#menu {
+.menu {
     margin: auto;
     width: 80%;
     background-color: burlywood;
