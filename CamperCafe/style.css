@@ -7,8 +7,11 @@ body {
 }
 
 .menu {
+    /* padding sirve para separar el contenido del borde */
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin: auto;
     width: 80%;
     background-color: burlywood;
