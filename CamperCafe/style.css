@@ -12,6 +12,8 @@ body {
     margin: auto;
     width: 80%;
     background-color: burlywood;
+    /* max-width sirve para que el contenido no se salga del ancho de la pantalla */
+    max-width: 500px;
 }
 
 .flavor, .dessert{
