@@ -12,7 +12,8 @@ body {
 .menu {
     /* padding sirve para separar el contenido del borde */
     padding: 20px;
-    margin: auto;
+    margin-left:auto;
+    margin-right:auto;
     width: 80%;
     background-color: burlywood;
     /* max-width sirve para que el contenido no se salga del ancho de la pantalla */
