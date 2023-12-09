@@ -73,6 +73,7 @@ a {
     color: black;
 }
 
+/*a:visited sirve para cambiar el color de los enlaces que ya han sido visitados*/
 a:visited {
     color:grey;
 }
