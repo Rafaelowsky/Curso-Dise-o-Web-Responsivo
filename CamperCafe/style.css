@@ -77,3 +77,8 @@ a {
 a:visited {
     color:grey;
 }
+
+/*a:hover sirve para cambiar el color de los enlaces cuando el cursor pasa por encima*/
+a:hover {
+    color: brown;
+}
