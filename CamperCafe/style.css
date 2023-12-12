@@ -93,3 +93,8 @@ a:active {
 .address {
     margin-bottom: 5px;
 }
+
+img {
+    display: block;
+    margin: auto;
+}
