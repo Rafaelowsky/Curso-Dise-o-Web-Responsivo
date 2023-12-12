@@ -82,3 +82,8 @@ a:visited {
 a:hover {
     color: brown;
 }
+
+/*a:active sirve para cambiar el color de los enlaces cuando se hace click*/
+a:active {
+    color: white;
+}
