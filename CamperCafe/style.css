@@ -75,7 +75,7 @@ a {
 
 /*a:visited sirve para cambiar el color de los enlaces que ya han sido visitados*/
 a:visited {
-    color:grey;
+    color:black;
 }
 
 /*a:hover sirve para cambiar el color de los enlaces cuando el cursor pasa por encima*/
@@ -85,5 +85,6 @@ a:hover {
 
 /*a:active sirve para cambiar el color de los enlaces cuando se hace click*/
 a:active {
-    color: white;
+    color: brown;
 }
+
